@@ -68,7 +68,7 @@
     const responseDiv = document.getElementById('response');
 
     // Cloud Run gives frontend + backend same domain → no need to hardcode
-    const serviceUrl = "/predict";
+    const serviceUrl = "https://iris-api-534376957405.asia-south1.run.app//predict";
 
     form.addEventListener('submit', async (event) => {
       event.preventDefault();

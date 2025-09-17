@@ -16,8 +16,8 @@ stages:
       size: 4029
     - path: src/train.py
       hash: md5
-      md5: ca746d36fe8e9ebc43b8728cbf446da8
-      size: 1686
+      md5: 298b9c654482651f0fed0679393d552f
+      size: 1769
   evaluate:
     cmd: python src/evaluate.py
     deps:
@@ -27,5 +27,5 @@ stages:
       size: 4029
     - path: src/evaluate.py
       hash: md5
-      md5: dcb8575b1e9e31ceda64a1f6478987b2
-      size: 1037
+      md5: b7773592cfa9995c1f16296618ec7365
+      size: 1071
